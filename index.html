@@ -6,11 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Spa Tec - West Michigan Spa Repair service for hot tubs, pools, saunas, and more!">
     <meta name="author" content="Jeff Delamar">
+    <meta property="og:title" content="Spa Tec" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.spatecservice.com/" />
+	<meta property="og:image" content="img/SpaTec.jpg" />
 
     <title>Spa Tec - West Michigan Spa Repair</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 
+	<link href="css/spatec.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/agency.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
 
 <body id="page-top" class="index">
@@ -41,7 +48,7 @@
                         <a class="page-scroll" href="#services"><strong>Services</strong></a>
                     </li>
 					<li>
-                        <a class="page-scroll" href="#contact"><strong>Contact</strong></a>
+                        <a class="page-scroll" href="#contactus"><strong>Contact</strong></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about"><strong>About</strong></a>
@@ -55,8 +62,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in"><strong>Get back in hot water!</strong></div>
-                <div class="intro-heading"></div>
+                <div class="intro-lead-in bold">Get back in hot water!</div>
                 <a href="#contact" class="page-scroll btn btn-xl">Request Service</a>
             </div>
         </div>
@@ -129,7 +135,7 @@
     </section>
     
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contactus">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -140,7 +146,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form name="sentMessage" id="contactForm">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -158,7 +164,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Your Message *. Include product Make and Model &amp; any problems you're having..." id="message" required data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -284,5 +290,4 @@
     <script src="js/agency.min.js"></script>
 
 </body>
-
 </html>
