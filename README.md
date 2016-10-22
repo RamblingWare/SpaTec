@@ -1,4 +1,4 @@
 # SpaTec
-A website for our father's business
+A website for my father's business
 
-https://ramblingware.github.io/SpaTec/
+https://amdelamar.github.io/SpaTec/
